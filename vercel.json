@@ -1,11 +1,8 @@
 {
   "version": 2,
   "functions": {
-    "api/scoreboard.js": {
-      "runtime": "nodejs16.x"
-    },
-    "api/boxscore.js": {
-      "runtime": "nodejs16.x"
+    "api/*.js": {
+      "runtime": "now-node@1.0.0"
     }
   }
 }

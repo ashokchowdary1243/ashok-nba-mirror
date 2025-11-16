@@ -2,10 +2,10 @@
   "version": 2,
   "functions": {
     "api/scoreboard.js": {
-      "runtime": "nodejs20.x"
+      "runtime": "now-node@1.8.0"
     },
     "api/boxscore.js": {
-      "runtime": "nodejs20.x"
+      "runtime": "now-node@1.8.0"
     }
   }
 }

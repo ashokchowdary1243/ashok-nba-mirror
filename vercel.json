@@ -1,11 +1,11 @@
 {
-  "version": 3,
+  "version": 2,
   "functions": {
-    "api/*.js": {
+    "api/scoreboard.js": {
+      "runtime": "nodejs20.x"
+    },
+    "api/boxscore.js": {
       "runtime": "nodejs20.x"
     }
-  },
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1.js" }
-  ]
+  }
 }

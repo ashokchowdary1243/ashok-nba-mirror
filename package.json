@@ -1,0 +1,8 @@
+{
+  "name": "ashok-nba-mirror",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "undici": "^5.28.3"
+  }
+}
